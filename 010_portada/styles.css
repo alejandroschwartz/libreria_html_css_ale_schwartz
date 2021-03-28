@@ -1,0 +1,88 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+.contenedor {
+    width: 100%;
+    /* fallback for old browsers */
+    background: #DA4453;  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(137, 33, 107, 0.5), rgba(218, 68, 83, 0.5)), url("fast_and_furious.jpg");  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(137, 33, 107, 0.5), rgba(218, 68, 83, 0.5)), url("fast_and_furious.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.enlaces {
+    background-color: rgba(0, 0, 0, 0.35);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.enlaces a {
+    padding: 18px 12px;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #dadada;
+    text-decoration: none;
+}
+
+.enlaces a:hover {
+    color: #FFFFFF;
+}
+
+.texto {
+    height: 538px;
+    font-size: 26px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    overflow: hidden;
+}
+
+.caja {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja a {
+    margin-bottom: 50px;
+    padding: 4px 12px;
+    border: 1px solid #dadada;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #dadada;
+    text-decoration: none;
+}
+
+.caja a:hover {
+    color: #FFFFFF;
+    border: 1px solid #ffffff;
+}
+
+.caja h1, .caja p {
+    margin: 12px;
+} 
+
+.wave {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
