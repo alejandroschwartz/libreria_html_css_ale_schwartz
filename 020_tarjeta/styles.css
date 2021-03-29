@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(21, 19, 32);
+}
+
+.tarjetas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tarjeta {
+    margin: 12px 16px;
+    border: 5px solid rgb(35, 35, 40);
+    border-radius: 14px;
+    width: 320px;
+    overflow: hidden;
+    background: rgb(35, 35, 40);
+}
+
+.tarjeta__img {
+    position: relative;
+    clip-path: polygon(0 0,100% 0,100% 95%, 0 100%);
+    object-fit: cover;
+}
+
+.tarjeta__img img {
+    display: block;
+}
+
+.detalles {
+    margin-top: 6px;
+    margin-bottom: 14px;
+    color: #f2f2f2;
+    padding: 6px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.detalles p {
+    margin: 16px 0px;
+}
+
+.detalles a {
+    margin: 0px 16px;
+    padding: 5px 16px;
+    border: 1px solid #dadada;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #dadada;
+    text-decoration: none;
+}
+
+.detalles a:hover {
+    color: #FFFFFF;
+    border: 1px solid #ffffff;
+}
